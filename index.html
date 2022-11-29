@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>BMW</title>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+
+        <style>
+            #feedback { font-size: 1.4em; }
+            #selectable .ui-selecting { background: #FECA40; }
+            #selectable .ui-selected { background: #F39814; color: white; }
+            #selectable { list-style-type: none; margin: 0; padding: 0; width: 30%; }
+            #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+        </style>
+        <script>
+            $( function() {
+              $( "#selectable" ).selectable();
+            } );
+            </script>
+
+        <style>
+        #resizable { width: 150px; height: 150px; padding: 0.5em; }
+        #resizable h3 { text-align: center; margin: 0; }
+        </style>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script>
+        $( function() {
+        $( "#resizable" ).resizable();
+        } );
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script>
+        $( function() {
+        $( "#selectable" ).selectable();
+        } );
+        </script>
+
+        <div class="BMW-image">
+            <div class="container">
+                <img class="logo" src="bmwlogo.png" alt="logo">
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="BMW-text">
+                    <h1>BMW</h1>
+                    <p>The embodiment of luxury and comfort, which makes you enjoy every moment of driving.</p>
+                </div>
+            </div>
+        </div>
+    
+    </head>
+    <body style="background-color: #24252A;">
+
+        <ol id="selectable">
+            <li class="ui-widget-content">BMW 3 series</li>
+            <li class="ui-widget-content">BMW 4 series</li>
+            <li class="ui-widget-content">BMW 5 series</li>
+            <li class="ui-widget-content">BMW 6 series</li>
+            <li class="ui-widget-content">BMW 7 series</li>
+        </ol>
+
+        <label for="exampleColorInput" class="form-label">Color picker</label>
+        <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+        
+        <div class="row align-items-start">
+            <div class="left-col">
+                <p>БМВ (BMW, съкращение от Bayerische Motoren Werke AG, Баварски моторни заводи АД)<br> 
+                    е германска компания с дейност обхващаща производство и продажба на моторни превозни средства,<br>
+                    резервни части и аксесоари за МПС, продукти на машиностроенето, както и свързани с тях услуги.<br>
+                    БМВ АД е фирмата-майка на концерна БМВ Груп, която е пазарно ориентирана към сектора „Автомобили“, „Мотоциклети“, „Финансови услуги“ и „Други дружества“.<br>
+                    БМВ Груп работи на международно ниво в над 150 страни.<br>
+                    БМВ Груп включва освен БМВ АД всички дъщерни фирми, върху които БМВ АД може да директно и управляващо влияние. <br>
+                    Освен това БМВ АД управлява БМВ Груп.<br>
+                
+                </p>
+            </div>
+            <div class="center-col">
+                <p>
+                    БМВ Груп е един от най-успешните производители на автомобили и мотоциклети в света и е сред най-големите промишлени предприятия в Германия. <br>
+                    Марките БМВ, Мини и Ролс-Ройс са три от най-силните премиум марки в автомобилната индустрия. <br>
+                    Фирмата развива изследователска и иновативна дейност на 13 местоположения в пет държави, произвежда продуктите си на 31 места в 14 държави.<br> 
+                    Фирмата предлага и финансови услуги и е един от водещите доставчици на премиум услуги за индивидуална мобилност.<br>
+                    През 2016 г. компанията произвежда 2 359 756 автомобила от марките БМВ, Мини и Ролс-Ройс и 145 555 мотоциклета. <br>
+                    Изпълнителен директор на БМВ към 2016 г. е Харалд Крюгер.<br>
+                </p>
+            </div>
+            <div class="form-floating">
+                <label for="floatingTextarea">Коментари</label>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contacs</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+        </footer>
+        
+    </body>
+
+
+</html>
